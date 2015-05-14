@@ -947,11 +947,11 @@ class Albdesign_Invoice_Table_Metabox {
 									<tr>
 										<td class="at-field" valign="top" colspan="3">
 											
-											 <!--
+											
 												<span class="invoice_preview_text"><?php echo apply_filters('albwppm_invoice_cpt_single_invoice_pdf_invoice_preview_label','Pdf invoice preview');?></span>
 											
 												<div id="albdesign_pdf_preview_in_browser"></div> 
-											-->
+											
 												
 													<script>
 															jQuery(document).ready(function () {
@@ -989,7 +989,7 @@ class Albdesign_Invoice_Table_Metabox {
 																				
 																			},
 																			success: function (data) {
-																					//jQuery('#albdesign_pdf_preview_in_browser').html('<iframe style="width:100%;height:400px" src="data:application/pdf;base64,'+data+'"></iframe>');
+																					jQuery('#albdesign_pdf_preview_in_browser').html('<iframe style="width:100%;height:400px" src="data:application/pdf;base64,'+data+'"></iframe>');
 																					
 																					albdesign_projects_functions.enable_invoice_buttons();
 																			},
