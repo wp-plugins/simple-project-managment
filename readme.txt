@@ -26,6 +26,8 @@ Features
 * Task reports
 * Client reports
 
+<h4>Documentation </h4> [Docs](http://pidhasome.com/albdesign/plugins/wordpress_project_management/documentation/)
+
 
 
 == Installation ==
@@ -35,6 +37,8 @@ Activate  through the 'Plugins' menu in WordPress
 
 Manage the projects on the wordpress administration are under PROJECT menu
 
+<h4>Documentation </h4> [Docs](http://pidhasome.com/albdesign/plugins/wordpress_project_management/documentation/)
+
 == Frequently Asked Questions ==
 
 = How can I use my own template for PDF invoice=
@@ -42,6 +46,9 @@ Manage the projects on the wordpress administration are under PROJECT menu
 Create a folder named albdesign_projects inside your active theme and inside it create a folder "invoice_templates" and finally create another folder named "template". 
 You can check the provided file in order to see what options you can use
 
+= Are there any documentation =
+
+<h4>Documentation </h4> [Docs](http://pidhasome.com/albdesign/plugins/wordpress_project_management/documentation/)
 
 == Screenshots ==
 
