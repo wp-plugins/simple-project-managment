@@ -1,0 +1,168 @@
+@page {
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+	margin-left: 1cm;
+	margin-right: 1cm;
+	
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/yYRnAC2KygoXnEC8IdU0gQLUuEpTyoUstqEm5AMlJo4.ttf) format('truetype');
+}
+	@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/k3k702ZOKiLJc3WVjuplzMDdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/O4NhV7_qs9r9seTo7fnsVCZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: bold;
+	src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/PRmiXeptR36kaC0GEAetxrQhS7CD3GIaelOwHPAPh9w.ttf) format('truetype');
+}
+
+body{
+	background-color:#fff;
+	margin: 0cm;
+	font-family: 'Open Sans', sans-serif;	
+	font-size:13px;
+	color:#444
+}
+
+
+
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	page-break-inside: always;
+}
+
+th, td {
+	vertical-align: top;
+}
+
+table {
+	width:100%;
+	border: 0;
+}
+
+
+/*Header */
+table.invoice_header_table td{
+	padding:10px 0;
+	margin:0px auto;
+	width:50%
+	
+}
+
+table.invoice_header_table tr td.float_right{
+	text-align:right;
+}
+
+
+table.invoice_header_table tr td.invoice_id, 
+table.invoice_header_table tr td div span.company_name,
+table.invoice_header_table tr td span.client_name{
+	font-weight:bold;
+}
+
+table.order_items thead tr, 
+table.order_items tfoot tr{
+	background-color:#403d3e;
+}
+
+table.order_items thead tr td{
+	color:#fff;
+	font-weight:bold;
+}
+
+table.order_items tr td{
+	padding:10px;
+	text-align:right;
+}
+
+table.order_items tr td.item_name,
+table.order_items tr td.description_title{
+	width:55%;
+	text-align:left;
+}
+
+
+table.order_items tbody tr td{
+	padding:10px;
+	border-bottom:1px solid #999;
+}
+
+
+.no-borders{
+	border: 0 !important;
+	border-top: 0 !important;
+	border-bottom: 0 !important;
+	padding: 0 !important;
+	width: auto;
+}
+
+.before_subtotal_separator td{
+	height: 20px;
+	position:relative;
+	background-color:transparent;
+	
+}
+
+.before_total_separator td {
+	height: 35px;
+	position:relative;
+	background-color:transparent;
+}
+
+table.order_items tbody tr td.subtotal_title,
+table.order_items tbody tr td.discount_title,
+table.order_items tbody tr td.subtotal_after_discount_title,
+table.order_items tbody tr td.vat_title,
+table.order_items tfoot tr td.balance_due_title,
+table.order_items tbody tr td.invoice_terms{
+	text-align:left;
+}
+
+table.order_items tfoot tr {
+	color:#fff;
+	font-weight:bold;
+}
+
+span.invoice_general_terms_title,
+span.invoice_specific_terms_title{
+	font-weight:bold;
+}
+
+#footer {
+	position: absolute;
+	bottom: -2cm;
+	left: 0;
+	right: 0;
+	height: 2cm; 
+	text-align: center;
+	border-top: 0.1mm solid #999;
+	margin-bottom: 0;
+	padding-top: 2mm;
+	color:#777;
+}
+
+#footer span.company_email_title,
+#footer span.company_website_title,
+#footer span.company_mobile_title,
+#footer span.company_title
+{
+	font-weight:bold;
+}

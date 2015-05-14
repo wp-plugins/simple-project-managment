@@ -1,0 +1,232 @@
+.postbox .at-field input.albwppm_text_input,
+.postbox .at-field textarea.albwppm_textarea_input{
+	box-shadow: none;
+	padding: 7px;
+	font-size: 16px;
+}
+
+
+table.albwppm_table_for_grouped_fields td.at-field{
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:15px;
+
+}
+
+.albdesign_clear{
+	clear:both;
+	width:100%;
+	display:block;
+}
+
+/*Upload Company img link*/
+#albdesign_company_image_button{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#company_logo_img{
+	min-width:300px;
+}
+
+/*Repetable field for project tasks*/
+div#albdesign_project_re_tasks_  table.repeater-table{
+	width:100%;
+}
+.at-repater-block{
+	padding:10px;
+}
+.at-repeater-block-title{
+	font-weight:bold;
+	display: inline-block;
+padding: 5px;
+}
+
+img.at-repeatable-edit-button,
+img.at-repeatable-add-button,
+img.at-repeatable-remove-button{
+	cursor:pointer;
+}
+
+/*Task Statuses */
+.task_with_status_not_started_for_project_column,
+.task_with_status_ongoing_for_project_column,
+.task_with_status_finished_for_project_column,
+.albdesign_generic_bullet_not_started,
+.albdesign_generic_bullet_ongoing ,
+.albdesign_generic_bullet_cancelled,
+.albdesign_generic_bullet_finished {
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.task_with_status_not_started_for_project_column , .albdesign_generic_bullet_not_started{
+	background-color: rgb(255, 93, 93);
+}
+
+.task_with_status_ongoing_for_project_column , .albdesign_generic_bullet_ongoing {
+	background-color: rgb(255, 213, 0);
+}
+
+.task_with_status_finished_for_project_column , .albdesign_generic_bullet_finished{
+	background-color: rgb(84, 255, 0);
+}
+
+.albdesign_generic_bullet_cancelled{
+	color:#fff;
+	background-color: red;
+	font-size: 9px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*Dropdown*/
+.select2-container{
+	min-width:200px;
+}
+
+.form-table td.at-field{
+	border: 0px solid transparent !important;
+}
+
+/*Fix Invoice table*/
+div.jtable-main-container table.jtable tbody tr.jtable-no-data-row{
+	border-left: 1px solid #ddd;
+}
+
+div.jtable-main-container > table.jtable > tbody > tr.jtable-row-updated{
+	background-color:#f9f9f9 !important;
+}
+
+.albdesign_invoice_discount_fields{
+	max-width:83px;
+}
+
+table.albdesignInvoicePageTable td.at-field input.albdesign_invoice_page_buttons{
+	padding: 5px 20px;
+	border: transparent;
+	border-radius: 0;
+	margin-right: 20px;
+	font-size: 14px;
+	min-height:38px;
+}
+
+.albdesign_loading_ajax{
+	display: none;
+	line-height: 2em;
+	background-image: url(../../admin/images/ajax-loader.gif);
+	text-indent: -999999px;
+	width: 30px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+
+
+
+.at-field .albdesign_invoice_page_buttons{
+	background-color: #2d89ef;
+
+}
+
+div.albdesign_vat_title,
+div.albdesign_discount_title{
+	float:left;
+	width:30%;
+	margin-bottom: 20px;
+}
+div.albdesign_vat_title span,
+div.albdesign_discount_title span{
+	line-height:2em;
+}
+
+div.albdesign_vat_form,
+div.albdesign_discount_form{
+	float:left;
+	width:68%;
+}
+
+span.albdesign_item_row_on_pdf{
+	color:red;
+}
+
+span.invoice_preview_text{
+	display:inline-block;
+	margin:10px 0;
+}
+
+/*Reports Page*/
+table.reports_overview tbody tr td{
+	vertical-align: top;
+}
+
+
+table.reports_overview p.diagram_title{
+	width:200px;
+	text-align:center;
+	margin: 0px auto;
+	font-size: 20px;
+	padding: 15px;
+}
+
+table.reports_overview div.breakdown_container {
+	border-bottom:1px dotted #dedede;
+	max-width:200px;
+	padding:10px 10px;
+	text-align:center;
+	margin: 0px auto;
+}
+
+table.reports_overview div.breakdown_container div.breakdown_title{
+	float:left;
+	width:80%;
+	text-align: left;
+}
+
+table.reports_overview div.breakdown_container div.breakdown_value{
+	float:right;
+	text-align: left;
+}
+
+table.reports_overview div.breakdown_container div.albdesign_clear{
+	display:block;
+	clear:both;
+	width:100%;
+}
+
+
+/* Projects report tab */
+td.albdesign_projects_report_projects_tab_form  form div.albdesign_input{
+	float:left;
+	padding:10px;
+}
+td.albdesign_projects_report_projects_tab_form  form div.albdesign_input div.albdesign_input_header{
+
+	width:100%;
+	padding: 0 0 5px 0;
+}
+
+
+td.albdesign_projects_report_projects_tab_form  form div.albdesign_input select{
+	min-width:120px;
+}
+
+td.albdesign_projects_report_projects_tab_form  form div.albdesign_input input{
+	max-width:120px;
+}
+
+
+table.reports_overview div.breakdown_container div.paid_title,
+table.reports_overview div.breakdown_container div.unpaid_title{
+	float:left;
+	width:25%;
+	text-align: left;
+}
+
+table.albwppm_reports_project_page  a.table_header_text_link span{
+	color:#555;
+	cursor:default;
+}

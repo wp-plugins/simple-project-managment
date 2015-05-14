@@ -1,0 +1,41 @@
+.albdesign_projects_diagram {
+    width: 200px;
+    margin: 6px 6px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.albdesign_projects_diagram canvas {
+    vertical-align: top;
+}
+
+.albdesign_projects_diagram strong {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.albdesign_projects_diagram strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+
+.albdesign_projects_diagram span {
+    display: block;
+    
+    margin-top: 12px;
+}
+
+
+table.reports_overview p.diagram_title{
+	width:200px;
+	text-align:center;
+	margin: 0px auto;
+}
