@@ -13,7 +13,7 @@ Manage projects , clients , tasks , create invoices in PDF . Reports about proje
 
 Lets you manage projects , clients , tasks , create invoices in PDF. Reports about projects , clients , tasks , invoices
 
-Features
+= Features =
 
 * Client management
 * Project management
