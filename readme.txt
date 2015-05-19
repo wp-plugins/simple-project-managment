@@ -17,9 +17,7 @@ Features
 
 = Client =
 
-CLIENT TITLE
-
-This will be your reference to this client
+<b>CLIENT TITLE</b> This will be your reference to this client
 
 CLIENT DESCRIPTION
 You can write whatever you like
