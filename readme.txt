@@ -18,6 +18,7 @@ Features
 = Client =
 
 CLIENT TITLE
+
 This will be your reference to this client
 
 CLIENT DESCRIPTION
